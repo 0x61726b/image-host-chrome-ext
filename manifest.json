@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+  
+    "name": "Arkn.xyz image host",
+    "description": "Rehost images on arkn.xyz.",
+    "version": "1.0",
+    "icons": {
+		"16": "icon.png",
+		"128": "icon.png"
+	},
+    "background": { 
+        "scripts": ["script.js"]
+    },
+    "permissions": [
+      "contextMenus",
+      "<all_urls>",
+      "notifications"
+    ],
+    "web_accessible_resources": [
+        "icon.png"
+      ]
+  }
